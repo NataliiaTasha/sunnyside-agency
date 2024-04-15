@@ -336,3 +336,8 @@ footer {
     padding: 0 15px;
  }
 
+ .social-media a:hover svg {
+    fill: #fff;
+    background-color: transparent !important;
+ }
+
