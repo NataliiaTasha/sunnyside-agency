@@ -13,18 +13,17 @@ body {
     padding: 34 40;
 }
 
-a:link {
+a {
     font-weight: 600;
     font-size: 18px;
     padding: 16px;
     font-family: $font-text;
     text-decoration: none;
     color: #fff;
-    /*border-radius: 28%;
-    background-color: rgba(255, 255, 255, 1);*/
+   
 }
 
-a: {
+a:visited {
     font-family: $font-main;
     color: #24303E;
     font-weight: 900;
@@ -292,9 +291,25 @@ a:hover {
     font-family: $font-text;
     color: #458D7E;
     font-size: 18px;
-    left: -.13;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -.13;
     margin: 10px;
 }
+
+.footer-menu > a:hover {
+    font-family: Barlow, sans-serif !important;
+    color: #fff;
+    background-color: transparent !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    letter-spacing: -.13 !important;
+    margin: 10px !important;
+    vertical-align: middle !important;
+  
+  }
 
 footer {
     display: flex;
@@ -318,5 +333,6 @@ footer {
  }
 
  .social-media>svg {
-    padding: 0 10px;
+    padding: 0 15px;
  }
+

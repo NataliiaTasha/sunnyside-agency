@@ -11,14 +11,12 @@ a {
   font-family: Barlow, sans-serif;
   text-decoration: none;
   color: #fff;
-  /*border-radius: 28%;
-  background-color: rgba(255, 255, 255, 1);*/
 }
 
 a:visited {
   font-family: Fraunces, serif;
   color: #24303E;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 15px;
   text-transform: uppercase;
   background-color: rgb(255, 255, 255);
@@ -29,7 +27,7 @@ a:visited {
 a:hover {
   font-family: Fraunces, serif;
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 15px;
   text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.2537);
@@ -278,8 +276,23 @@ a:hover {
   font-family: Barlow, sans-serif;
   color: #458D7E;
   font-size: 18px;
-  left: -0.13;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.13;
   margin: 10px;
+}
+
+.footer-menu > a:hover {
+  font-family: Barlow, sans-serif !important;
+  color: #fff;
+  background-color: transparent !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  letter-spacing: -0.13 !important;
+  margin: 10px !important;
+  vertical-align: middle !important;
 }
 
 footer {
@@ -305,5 +318,5 @@ footer {
 }
 
 .social-media > svg {
-  padding: 0 10px;
+  padding: 0 15px;
 }/*# sourceMappingURL=style.css.map */
