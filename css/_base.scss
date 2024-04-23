@@ -1,0 +1,20 @@
+@import "767up";
+@import "1024up";
+@import "1240up";
+
+$font-text: Barlow, sans-serif;
+$font-main: Fraunces, serif;
+
+$colorBlack: #24303E;
+$colorLightGray: #A7AAAD;
+$colorDarkGay: #5B636D;
+$colorGray: #808397;
+
+body {
+    max-width: 100vw;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1);
+   /* font-size: 16px;*/
+   
+}
+
